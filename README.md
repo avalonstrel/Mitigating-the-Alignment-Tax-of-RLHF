@@ -54,8 +54,8 @@ To make it work, you need to change the parameters below in the script 'scripts/
 
 ```bash
 alpha=0.5
-model_path0=path/to/model/before/rlhf
-model_path1=path/to/model/after/rlhf
+model_path0=path/to/model/before/rlhf  # for example, openlm-research/open_llama_3b
+model_path1=path/to/model/after/rlhf  
 ...
 weight_ensamble_save_path=path/to/save/ma_${alpha}_tag0_tag1
 ```
