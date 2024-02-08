@@ -23,6 +23,6 @@ deepspeed ${deepspeed_args} \
     --weight_ensamble_ratios 0.0 \
     --weight_ensamble_save_path "${weight_ensamble_save_path}" \
     --dataset_path data \
-    --deepspeed examples/ds_config.json \
+    --deepspeed configs/ds_config.json \
     --inference_batch_size_per_device 1 \
     --metric accuracy 
